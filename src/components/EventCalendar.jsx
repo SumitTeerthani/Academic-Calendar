@@ -70,9 +70,10 @@ const EventCalendar = () => {
           />
         ))}
         {daysinMonth.map((day, index) => (
+            
           <div
             key={index}
-            className={clsx("text-center border bg-[#edf4fe] rounded-md p-2", {
+            className={clsx("text-center border  rounded-md p-2", {
               "bg-[#0369a0]": isToday(day),
               "text-white": isToday(day),
             })}

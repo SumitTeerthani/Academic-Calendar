@@ -37,7 +37,7 @@ const DailyView=()=>{
         <div
           className={clsx("text-center border rounded-md p-2", {
             "bg-[#0369a0]": format(firstDay, "yyyy-MM-dd") === format(new Date(), "yyyy-MM-dd"),
-            "text-white": format(firstDay, "yyyy-MM-dd") === format(new Date(), "yyyy-MM-dd"),
+            "text-[#ffffff]": format(firstDay, "yyyy-MM-dd") === format(new Date(), "yyyy-MM-dd"),
           })}
           
         >

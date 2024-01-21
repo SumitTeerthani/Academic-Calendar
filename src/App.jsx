@@ -23,7 +23,7 @@ function App() {
 
   return (
 
-    <div className='text-center bg-[#ffffff]' >
+    <div className='text-center ' >
      <div className="flex items-center justify-center space-x-4">
         <img src="https://www.nitj.ac.in/public/assets/images/logo_250.png" alt="NITJ Logo" className='h-12 w-12' />
         <div>
@@ -63,5 +63,5 @@ export default App;
 //Blue-#0369a0
 //White-#ffffff
 //very light blue-#edf4fe
-//light blue-#edf4fe
+//light blue-#bfdbfe
 //Black-#040321

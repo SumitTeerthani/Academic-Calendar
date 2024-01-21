@@ -73,7 +73,7 @@ const  WeeklyView= ()=>{
           />
         ))}
        {daysinWeek.map((day,index)=>(
-        <div key={index}  className={clsx("text-center border rounded-md bg-[#edf4fe] p-2", {
+        <div key={index}   className={clsx("text-center border rounded-md  p-2", {
             "bg-[#0369a0]": isToday(day),
             "text-white": isToday(day),
           })}
